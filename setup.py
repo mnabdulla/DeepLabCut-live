@@ -31,7 +31,7 @@ if "tegra" in platform.platform():
     )
 else:
     install_requires.append("opencv-python")
-    install_requires.append("tensorflow==1.13.1")
+    install_requires.append("tensorflow<2")
     install_requires.append("pandas")
     install_requires.append("tables")
 
